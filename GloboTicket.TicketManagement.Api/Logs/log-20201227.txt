@@ -1,0 +1,1 @@
+2020-12-27 21:31:37.940 +01:00 [INF] Application Starting

@@ -1,0 +1,4 @@
+2020-12-31 10:56:32.249 +01:00 [INF] Application Starting
+2020-12-31 11:17:08.992 +01:00 [INF] Application Starting
+2020-12-31 11:24:06.169 +01:00 [INF] Application Starting
+2020-12-31 12:21:14.036 +01:00 [INF] Application Starting

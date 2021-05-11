@@ -1,0 +1,122 @@
+2020-11-11 12:12:15.755 +01:00 [INF] Application Starting
+2020-11-11 12:14:30.081 +01:00 [INF] Application Starting
+2020-11-11 12:14:37.334 +01:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'OrderLine'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-11-11 12:15:06.964 +01:00 [INF] Email sent
+2020-11-11 12:33:26.067 +01:00 [INF] Application Starting
+2020-11-11 12:35:41.400 +01:00 [INF] Application Starting
+2020-11-11 12:35:55.680 +01:00 [INF] Application Starting
+2020-11-11 14:49:33.164 +01:00 [INF] Application Starting
+2020-11-11 14:53:17.969 +01:00 [INF] Application Starting
+2020-11-11 15:11:38.816 +01:00 [INF] Application Starting
+2020-11-11 15:13:35.799 +01:00 [INF] Application Starting
+2020-11-11 15:14:36.999 +01:00 [INF] Application Starting
+2020-11-11 15:15:26.063 +01:00 [INF] Application Starting
+2020-11-11 15:15:47.484 +01:00 [INF] Application Starting
+2020-11-11 15:24:54.635 +01:00 [INF] Application Starting
+2020-11-11 16:04:48.232 +01:00 [INF] Application Starting
+2020-11-11 16:05:43.664 +01:00 [INF] Application Starting
+2020-11-11 16:07:42.131 +01:00 [INF] Application Starting
+2020-11-11 16:09:04.313 +01:00 [INF] Application Starting
+2020-11-11 16:12:07.022 +01:00 [INF] Application Starting
+2020-11-11 16:29:14.907 +01:00 [INF] Application Starting
+2020-11-11 16:31:13.229 +01:00 [INF] Application Starting
+2020-11-11 16:32:58.719 +01:00 [INF] Application Starting
+2020-11-11 16:34:52.497 +01:00 [INF] Application Starting
+2020-11-11 16:36:54.612 +01:00 [INF] Application Starting
+2020-11-11 16:38:07.241 +01:00 [INF] Application Starting
+2020-11-11 16:39:22.888 +01:00 [INF] Application Starting
+2020-11-11 16:50:07.605 +01:00 [INF] Application Starting
+2020-11-11 16:53:11.694 +01:00 [INF] Application Starting
+2020-11-11 17:00:32.868 +01:00 [INF] Application Starting
+2020-11-11 17:02:12.786 +01:00 [INF] Application Starting
+2020-11-11 17:12:18.270 +01:00 [INF] Application Starting
+2020-11-11 17:12:36.058 +01:00 [INF] Application Starting
+2020-11-11 17:13:27.811 +01:00 [INF] Application Starting
+2020-11-11 17:27:53.118 +01:00 [INF] Application Starting
+2020-11-11 17:28:43.290 +01:00 [INF] Application Starting
+2020-11-11 17:34:46.571 +01:00 [INF] Application Starting
+2020-11-11 17:46:30.489 +01:00 [INF] Application Starting
+2020-11-11 20:48:52.117 +01:00 [INF] Application Starting
+2020-11-11 20:49:01.544 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_Item(String key, StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at GloboTicket.TicketManagement.Api.Middleware.ExceptionHandlerMiddleware.ConvertException(HttpContext context, Exception exception) in D:\Github\ps-aspnetcore-architecture\GloboTicket.TicketManagement.Api\Middleware\ExceptionHandlerMiddleware.cs:line 35
+   at GloboTicket.TicketManagement.Api.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in D:\Github\ps-aspnetcore-architecture\GloboTicket.TicketManagement.Api\Middleware\ExceptionHandlerMiddleware.cs:line 27
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-11-11 20:49:01.575 +01:00 [WRN] The response has already started, the error page middleware will not be executed.
+2020-11-11 20:49:01.578 +01:00 [ERR] Connection id "0HM46FB8MSC82", Request id "0HM46FB8MSC82:00000003": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_Item(String key, StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at GloboTicket.TicketManagement.Api.Middleware.ExceptionHandlerMiddleware.ConvertException(HttpContext context, Exception exception) in D:\Github\ps-aspnetcore-architecture\GloboTicket.TicketManagement.Api\Middleware\ExceptionHandlerMiddleware.cs:line 35
+   at GloboTicket.TicketManagement.Api.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in D:\Github\ps-aspnetcore-architecture\GloboTicket.TicketManagement.Api\Middleware\ExceptionHandlerMiddleware.cs:line 27
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-11-11 20:50:04.550 +01:00 [INF] Application Starting
+2020-11-11 20:50:19.569 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_Item(String key, StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at GloboTicket.TicketManagement.Api.Middleware.ExceptionHandlerMiddleware.ConvertException(HttpContext context, Exception exception) in D:\Github\ps-aspnetcore-architecture\GloboTicket.TicketManagement.Api\Middleware\ExceptionHandlerMiddleware.cs:line 35
+   at GloboTicket.TicketManagement.Api.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in D:\Github\ps-aspnetcore-architecture\GloboTicket.TicketManagement.Api\Middleware\ExceptionHandlerMiddleware.cs:line 27
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-11-11 20:50:19.607 +01:00 [WRN] The response has already started, the error page middleware will not be executed.
+2020-11-11 20:50:19.617 +01:00 [ERR] Connection id "0HM46FBUFDO4V", Request id "0HM46FBUFDO4V:00000005": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_Item(String key, StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at GloboTicket.TicketManagement.Api.Middleware.ExceptionHandlerMiddleware.ConvertException(HttpContext context, Exception exception) in D:\Github\ps-aspnetcore-architecture\GloboTicket.TicketManagement.Api\Middleware\ExceptionHandlerMiddleware.cs:line 35
+   at GloboTicket.TicketManagement.Api.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in D:\Github\ps-aspnetcore-architecture\GloboTicket.TicketManagement.Api\Middleware\ExceptionHandlerMiddleware.cs:line 27
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-11-11 20:51:05.083 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_Item(String key, StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at GloboTicket.TicketManagement.Api.Middleware.ExceptionHandlerMiddleware.ConvertException(HttpContext context, Exception exception) in D:\Github\ps-aspnetcore-architecture\GloboTicket.TicketManagement.Api\Middleware\ExceptionHandlerMiddleware.cs:line 35
+   at GloboTicket.TicketManagement.Api.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in D:\Github\ps-aspnetcore-architecture\GloboTicket.TicketManagement.Api\Middleware\ExceptionHandlerMiddleware.cs:line 27
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-11-11 20:51:05.092 +01:00 [WRN] The response has already started, the error page middleware will not be executed.
+2020-11-11 20:51:05.095 +01:00 [ERR] Connection id "0HM46FBUFDO4V", Request id "0HM46FBUFDO4V:0000000F": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_Item(String key, StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at GloboTicket.TicketManagement.Api.Middleware.ExceptionHandlerMiddleware.ConvertException(HttpContext context, Exception exception) in D:\Github\ps-aspnetcore-architecture\GloboTicket.TicketManagement.Api\Middleware\ExceptionHandlerMiddleware.cs:line 35
+   at GloboTicket.TicketManagement.Api.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in D:\Github\ps-aspnetcore-architecture\GloboTicket.TicketManagement.Api\Middleware\ExceptionHandlerMiddleware.cs:line 27
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-11-11 20:53:11.575 +01:00 [INF] Application Starting
+2020-11-11 20:55:54.396 +01:00 [INF] Application Starting
+2020-11-11 22:00:26.704 +01:00 [INF] Application Starting
+2020-11-11 22:09:26.873 +01:00 [INF] Application Starting
+2020-11-11 22:47:08.045 +01:00 [INF] Application Starting
+2020-11-11 22:51:21.615 +01:00 [INF] Application Starting
+2020-11-11 23:17:23.664 +01:00 [INF] Application Starting

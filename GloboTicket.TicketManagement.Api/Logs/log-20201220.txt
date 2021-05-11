@@ -1,0 +1,58 @@
+2020-12-20 12:13:44.002 +01:00 [INF] Application Starting
+2020-12-20 12:20:03.678 +01:00 [INF] Application Starting
+2020-12-20 12:20:53.661 +01:00 [INF] Application Starting
+2020-12-20 12:25:56.572 +01:00 [INF] Application Starting
+2020-12-20 12:29:07.367 +01:00 [INF] Application Starting
+2020-12-20 12:29:16.053 +01:00 [INF] Application Starting
+2020-12-20 12:29:26.570 +01:00 [INF] Application Starting
+2020-12-20 12:33:02.058 +01:00 [INF] Application Starting
+2020-12-20 12:33:15.138 +01:00 [INF] Application Starting
+2020-12-20 12:37:07.865 +01:00 [INF] Application Starting
+2020-12-20 12:38:10.736 +01:00 [INF] Application Starting
+2020-12-20 12:40:37.415 +01:00 [INF] Application Starting
+2020-12-20 14:11:16.399 +01:00 [INF] Application Starting
+2020-12-20 14:17:16.025 +01:00 [INF] Application Starting
+2020-12-20 14:32:39.811 +01:00 [INF] Application Starting
+2020-12-20 14:40:15.360 +01:00 [INF] Application Starting
+2020-12-20 14:54:16.342 +01:00 [INF] Application Starting
+2020-12-20 15:04:41.151 +01:00 [INF] Application Starting
+2020-12-20 15:24:09.873 +01:00 [INF] Application Starting
+2020-12-20 15:25:25.043 +01:00 [INF] Application Starting
+2020-12-20 15:27:14.789 +01:00 [INF] Application Starting
+2020-12-20 15:27:29.111 +01:00 [WRN] Invalid password for user 9902c71c-c066-4bce-a1c6-8e167913ce8b.
+2020-12-20 15:27:29.117 +01:00 [WRN] User 9902c71c-c066-4bce-a1c6-8e167913ce8b failed to provide the correct password.
+2020-12-20 15:28:14.124 +01:00 [INF] Application Starting
+2020-12-20 15:30:36.451 +01:00 [INF] Application Starting
+2020-12-20 15:41:21.867 +01:00 [INF] Application Starting
+2020-12-20 15:42:32.884 +01:00 [INF] Application Starting
+2020-12-20 16:16:57.592 +01:00 [INF] Application Starting
+2020-12-20 16:34:29.064 +01:00 [INF] Application Starting
+2020-12-20 16:35:11.107 +01:00 [INF] Email sent
+2020-12-20 16:35:11.111 +01:00 [ERR] Email sending failed
+2020-12-20 16:36:13.115 +01:00 [INF] Application Starting
+2020-12-20 16:36:52.930 +01:00 [INF] Email sent
+2020-12-20 16:36:52.935 +01:00 [ERR] Email sending failed
+2020-12-20 16:36:52.998 +01:00 [ERR] Mailing about event c27f49c5-ae07-40ff-36f0-08d8a4fd0f4a failed due to an error with the mail service: mail error
+2020-12-20 16:40:13.756 +01:00 [INF] Application Starting
+2020-12-20 16:41:22.263 +01:00 [INF] Application Starting
+2020-12-20 16:41:31.622 +01:00 [INF] Application Starting
+2020-12-20 16:44:56.267 +01:00 [INF] Application Starting
+2020-12-20 16:45:07.143 +01:00 [INF] Application Starting
+2020-12-20 16:46:06.155 +01:00 [INF] Application Starting
+2020-12-20 16:51:35.683 +01:00 [INF] Email sent
+2020-12-20 16:51:35.688 +01:00 [ERR] Email sending failed
+2020-12-20 16:52:58.527 +01:00 [INF] Email sent
+2020-12-20 16:52:58.529 +01:00 [ERR] Email sending failed
+2020-12-20 16:57:02.184 +01:00 [INF] Application Starting
+2020-12-20 16:59:06.256 +01:00 [INF] Email sent
+2020-12-20 16:59:06.260 +01:00 [ERR] Email sending failed
+2020-12-20 17:00:36.530 +01:00 [INF] Email sent
+2020-12-20 17:00:36.531 +01:00 [ERR] Email sending failed
+2020-12-20 17:00:52.513 +01:00 [INF] Application Starting
+2020-12-20 17:01:50.820 +01:00 [INF] Application Starting
+2020-12-20 17:04:42.144 +01:00 [INF] Application Starting
+2020-12-20 17:06:42.924 +01:00 [INF] Application Starting
+2020-12-20 18:01:24.227 +01:00 [INF] Application Starting
+2020-12-20 18:09:38.420 +01:00 [INF] Application Starting
+2020-12-20 18:11:10.370 +01:00 [INF] Application Starting
+2020-12-20 18:16:49.807 +01:00 [INF] Application Starting

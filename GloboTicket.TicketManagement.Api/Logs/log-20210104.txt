@@ -1,0 +1,1 @@
+2021-01-04 22:36:54.521 +01:00 [INF] Application Starting

@@ -1,0 +1,26 @@
+2020-11-14 20:27:54.171 +01:00 [INF] Application Starting
+2020-11-14 20:28:19.418 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_Item(String key, StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at GloboTicket.TicketManagement.Api.Middleware.ExceptionHandlerMiddleware.ConvertException(HttpContext context, Exception exception) in D:\Github\ps-aspnetcore-architecture\GloboTicket.TicketManagement.Api\Middleware\ExceptionHandlerMiddleware.cs:line 35
+   at GloboTicket.TicketManagement.Api.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in D:\Github\ps-aspnetcore-architecture\GloboTicket.TicketManagement.Api\Middleware\ExceptionHandlerMiddleware.cs:line 27
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-11-14 20:28:19.448 +01:00 [WRN] The response has already started, the error page middleware will not be executed.
+2020-11-14 20:28:19.452 +01:00 [ERR] Connection id "0HM48QDHFG27V", Request id "0HM48QDHFG27V:00000005": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_Item(String key, StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at GloboTicket.TicketManagement.Api.Middleware.ExceptionHandlerMiddleware.ConvertException(HttpContext context, Exception exception) in D:\Github\ps-aspnetcore-architecture\GloboTicket.TicketManagement.Api\Middleware\ExceptionHandlerMiddleware.cs:line 35
+   at GloboTicket.TicketManagement.Api.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in D:\Github\ps-aspnetcore-architecture\GloboTicket.TicketManagement.Api\Middleware\ExceptionHandlerMiddleware.cs:line 27
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
