@@ -1,2 +1,1 @@
-# GloboTicket
-GloboTicket Project for reference of best practices architecture
+# ps-aspnetcore-architecture
