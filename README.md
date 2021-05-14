@@ -1,3 +1,3 @@
 # GloboTicket project is a sample about C# best practices
-#### It covers topics such as CQRS pattern, Mediator pattern, loose-coupling, Fluent Validation framework etc.
-#### It also covers about the structure of the projects, EF Core, APIs etc.
+It covers topics such as CQRS pattern, Mediator pattern, loose-coupling, Fluent Validation framework etc.
+It also covers about the structure of the projects, EF Core, APIs etc.
